@@ -1,1 +1,6 @@
 /target
+/src/advance_course/target/
+/src/basic_course/target/
+/src/basic_practice/target/
+/src/common/target/
+/.idea
