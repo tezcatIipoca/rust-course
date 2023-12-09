@@ -1,0 +1,11 @@
+E:\Github\programming-course\rust-course\src\basic_course\target\debug\deps\unicode_segmentation-61fbf9cb67549152.rmeta: D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\lib.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\grapheme.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\sentence.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\word.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\tables.rs
+
+E:\Github\programming-course\rust-course\src\basic_course\target\debug\deps\libunicode_segmentation-61fbf9cb67549152.rlib: D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\lib.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\grapheme.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\sentence.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\word.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\tables.rs
+
+E:\Github\programming-course\rust-course\src\basic_course\target\debug\deps\unicode_segmentation-61fbf9cb67549152.d: D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\lib.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\grapheme.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\sentence.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\word.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\tables.rs
+
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\lib.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\grapheme.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\sentence.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\word.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\unicode-segmentation-1.10.1\src\tables.rs:

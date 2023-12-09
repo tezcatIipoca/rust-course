@@ -1,0 +1,13 @@
+[package]
+name = "rust-course"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+num = "0.4.0"
+#lib要被引用才能进入阅读器模式
+common = { path = "src/common" }
+basic_course={path="src/basic_course"}
+advance_course={path="src/advance_course"}
+

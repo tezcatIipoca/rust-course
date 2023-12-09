@@ -1,0 +1,12 @@
+E:\Github\programming-course\rust-course\src\basic_course\target\debug\deps\thiserror_impl-d81aa6f2ba22e1b7.dll: D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\lib.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\ast.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\attr.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\expand.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\fmt.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\generics.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\prop.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\valid.rs
+
+E:\Github\programming-course\rust-course\src\basic_course\target\debug\deps\thiserror_impl-d81aa6f2ba22e1b7.d: D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\lib.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\ast.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\attr.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\expand.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\fmt.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\generics.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\prop.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\valid.rs
+
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\lib.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\ast.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\attr.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\expand.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\fmt.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\generics.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\prop.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\thiserror-impl-1.0.40\src\valid.rs:

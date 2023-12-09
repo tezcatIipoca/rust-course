@@ -1,0 +1,13 @@
+E:\Github\programming-course\rust-course\src\basic_course\target\debug\deps\cc-20338660775cd0c6.rmeta: D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\lib.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\registry.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\winapi.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\com.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\setup_config.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\vs_instances.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\windows_registry.rs
+
+E:\Github\programming-course\rust-course\src\basic_course\target\debug\deps\libcc-20338660775cd0c6.rlib: D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\lib.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\registry.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\winapi.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\com.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\setup_config.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\vs_instances.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\windows_registry.rs
+
+E:\Github\programming-course\rust-course\src\basic_course\target\debug\deps\cc-20338660775cd0c6.d: D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\lib.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\registry.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\winapi.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\com.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\setup_config.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\vs_instances.rs D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\windows_registry.rs
+
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\lib.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\registry.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\winapi.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\com.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\setup_config.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\vs_instances.rs:
+D:\Rust\.cargo\registry\src\rsproxy.cn-8f6827c7555bfaf8\cc-1.0.79\src\windows_registry.rs:
