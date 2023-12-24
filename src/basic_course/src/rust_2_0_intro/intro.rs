@@ -7,9 +7,9 @@
 //! ```
 //!
 
-use common::{inner_print, print_start_end};
+use common::{inner_print, outer_print};
 
-#[print_start_end("Rust 基本概念")]
+#[outer_print("Rust 基本概念")]
 /// Rust 程序入口函数，跟其它语言一样，都是 main，该函数目前无返回值
 pub fn intro_main() {
     ///* 使用let来声明变量，进行绑定，a是不可变的

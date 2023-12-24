@@ -1,4 +1,4 @@
-use common::print_start_end;
+use common::outer_print;
 
 ///# 基本类型
 ///Rust 每个值都有其确切的数据类型，总的来说可以分为两类：基本类型和复合类型。 基本类型意味着它们往往是一个最小化原子类型，无法解构为其它类型(一般意义上来说)，由以下组成：
@@ -8,13 +8,13 @@ use common::print_start_end;
 /// + 字符类型: 表示单个 Unicode 字符，存储为 4 个字节
 /// + 单元类型: 即 () ，其唯一的值也是 ()
 ///
-#[print_start_end("基本类型")]
+#[outer_print("基本类型")]
 pub fn base_type(){
 
 }
 /// # 类型推导与标注
 /// 与 Python、JavaScript 等动态语言不同，Rust 是一门静态类型语言，也就是编译器必须在编译期知道我们所有变量的类型，但这不意味着你需要为每个变量指定类型，因为 Rust 编译器很聪明，它可以根据变量的值和上下文中的使用方式来自动推导出变量的类型，同时编译器也不够聪明，在某些情况下，它无法推导出变量类型，需要手动去给予一个类型标注，关于这一点在 Rust 语言初印象中有过展示。
-#[print_start_end("类型推导与标注")]
+#[outer_print("类型推导与标注")]
 pub fn type_guess_mark(){
     let guess:i32 = "42".parse().expect("Not a number!");
     println!("{}",guess);

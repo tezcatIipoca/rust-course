@@ -2,7 +2,7 @@
 //! Rust 使用一个相对传统的语法来创建整数（1，2，...）和浮点数（1.0，1.1，...）。整数、浮点数的运算和你在其它语言上见过的一致，都是通过常见的运算符来完成。
 //! 不仅仅是数值类型，Rust 也允许在复杂类型上定义运算符，例如在自定义类型上定义 + 运算符，这种行为被称为运算符重载，Rust 具体支持的可重载运算符见附录 B。
 
-use common::{inner_print, print_start_end};
+use common::{inner_print, outer_print};
 
 
 
@@ -33,7 +33,7 @@ use common::{inner_print, print_start_end};
 /// + 如果使用 checked_* 方法时发生溢出，则返回 None 值
 /// + 使用 overflowing_* 方法返回该值和一个指示是否存在溢出的布尔值
 /// + 使用 saturating_* 方法使值达到最小值或最大值
-#[print_start_end("整数类型")]
+#[outer_print("整数类型")]
 pub fn int_type() {
     let a: u8 = 255;
     let b = a.wrapping_add(200);
@@ -52,7 +52,7 @@ pub fn int_type() {
 /// # 浮点类型
 /// 浮点类型数字 是带有小数点的数字，在 Rust 中浮点类型数字也有两种基本类型： f32 和 f64，分别为 32 位和 64 位大小。
 /// 默认浮点类型是 f64，在现代的 CPU 中它的速度与 f32 几乎相同，但精度更高。
-#[print_start_end("浮点类型")]
+#[outer_print("浮点类型")]
 pub fn float_type() {
     let x = 2.0; // f64
     let y: f32 = 3.0; // f32
@@ -108,7 +108,7 @@ pub fn float_type() {
 
 ///# 数字运算
 /// Rust 支持所有数字类型的基本数学运算：加法、减法、乘法、除法和取模运算。下面代码各使用一条 let 语句来说明相应运算的用法：
-#[print_start_end("数字运算")]
+#[outer_print("数字运算")]
 pub fn number_crunching() {
     // 加法
     let sum = 5 + 10;
@@ -154,7 +154,7 @@ pub fn number_crunching() {
 /// + ! 位非	把位中的0和1相互取反，即0置为1，1置为0
 /// + << 左移	所有位向左移动指定位数，右位补0
 /// + \>> 右移	所有位向右移动指定位数，带符号移动（正数补0，负数补1）
-#[print_start_end("位运算")]
+#[outer_print("位运算")]
 pub fn bit_arithmetic() {
 // 二进制为00000010
     let a: i32 = 2;
@@ -181,7 +181,7 @@ pub fn bit_arithmetic() {
 
 /// # 序列(Range)
 /// Rust 提供了一个非常简洁的方式，用来生成连续的数值，例如 1..5，生成从 1 到 4 的连续数字，不包含 5 ；1..=5，生成从 1 到 5 的连续数字，包含 5，它的用途很简单，常常用于循环中：
-#[print_start_end("序列(Range)")]
+#[outer_print("序列(Range)")]
 pub fn range() {
     //1-5
     for i in 1..=5 {
@@ -200,7 +200,7 @@ pub fn range() {
 /// + 有理数和复数
 /// + 任意大小的整数和任意精度的浮点数
 /// + 固定精度的十进制小数，常用于货币相关的场景
-#[print_start_end("有理数和复数")]
+#[outer_print("有理数和复数")]
 pub fn rational_complex() {
     ///```
     ///let a = Complex { re: 2.1, im: -1.2 };
@@ -217,5 +217,5 @@ pub fn rational_complex() {
 /// + Rust 拥有相当多的数值类型. 因此你需要熟悉这些类型所占用的字节数，这样就知道该类型允许的大小范围以及你选择的类型是否能表达负数
 /// + 类型转换必须是显式的. Rust 永远也不会偷偷把你的 16bit 整数转换成 32bit 整数
 /// + Rust 的数值上可以使用方法. 例如你可以用以下方法来将 13.14 取整：13.14_f32.round()，在这里我们使用了类型后缀，因为编译器需要知道 13.14 的具体类型
-#[print_start_end("总结")]
+#[outer_print("总结")]
 pub fn summary() {}

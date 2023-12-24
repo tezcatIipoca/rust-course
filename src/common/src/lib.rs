@@ -8,7 +8,7 @@ use syn::{Expr, ItemFn, LitStr, parse_macro_input};
 
 /// print_start_end
 #[proc_macro_attribute]
-pub fn print_start_end(attr: TokenStream, item: TokenStream) -> TokenStream {
+pub fn outer_print(attr: TokenStream, item: TokenStream) -> TokenStream {
     let input = parse_macro_input!(item as ItemFn);
     let attr = parse_macro_input!(attr as LitStr);
     let name = &input.sig.ident;

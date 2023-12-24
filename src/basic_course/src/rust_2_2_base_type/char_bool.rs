@@ -2,11 +2,11 @@
 //! 这三个类型所处的地位比较尴尬，你说它们重要吧，确实出现的身影不是很多，说它们不重要吧，有时候也是不可或缺，而且这三个类型都有一个共同点：简单，因此我们统一放在一起讲。
 
 
-use common::print_start_end;
+use common::outer_print;
 
 /// # 字符类型(char)
 /// 字符，对于没有其它编程经验的新手来说可能不太好理解（没有编程经验敢来学 Rust 的绝对是好汉），但是你可以把它理解为英文中的字母，中文中的汉字。
-#[print_start_end("字符类型(char)")]
+#[outer_print("字符类型(char)")]
 pub fn char() {
     let c = 'z';
     let z = 'ℤ';
@@ -22,7 +22,7 @@ pub fn char() {
 
 /// # 布尔(bool)
 /// Rust 中的布尔类型有两个可能的值：true 和 false，布尔值占用内存的大小为 1 个字节：
-#[print_start_end("布尔(bool)")]
+#[outer_print("布尔(bool)")]
 pub fn bool() {
     let t = true;
 
@@ -39,5 +39,5 @@ pub fn bool() {
 /// + 没错， main 函数就返回这个单元类型 ()，你不能说 main 函数无返回值，因为没有返回值的函数在 Rust 中是有单独的定义的：发散函数( diverge function )，顾名思义，无法收敛的函数。
 /// + 例如常见的 println!() 的返回值也是单元类型 ()。
 /// + 再比如，你可以用 () 作为 map 的值，表示我们不关注具体的值，只关注 key。 这种用法和 Go 语言的 struct{} 类似，可以作为一个值用来占位，但是完全不占用任何内存。
-#[print_start_end("单元类型")]
+#[outer_print("单元类型")]
 pub fn unit() {}

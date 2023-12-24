@@ -4,15 +4,15 @@ pub mod tests {
     use basic_course::rust_2_3_ownership::borrowing;
 
     #[test]
-    pub fn test_ownership(){
-        // ownership::unsafe_code();
-        // ownership::ref_and_deref();
-        // ownership::immut_ref();
-        // ownership::mut_ref();
-        // ownership::summary();
+    pub fn test_ownership()->(){
+        ownership::ownership_rule();
+        ownership::variable_bind();
+        ownership::function_args_return();
     }
     #[test]
     pub fn test_borrowing(){
-        // borrowing::borrowing()
+        borrowing::ref_and_deref();
+        borrowing::immut_ref();
+        borrowing::ref_and_deref();
     }
 }

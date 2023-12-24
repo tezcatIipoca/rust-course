@@ -8,20 +8,20 @@
 //! }
 //!```
 use std::fmt::Debug;
-use common::print_start_end;
+use common::outer_print;
 
 /// # 函数要点
 /// + 函数名和变量名使用蛇形命名法(snake case)，例如 fn add_two() -> {}
 /// + 函数的位置可以\[随便放\]，Rust 不关心我们在哪里定义了函数，只要有定义即可
 /// + 每个函数参数都需要标注类型
-#[print_start_end("函数要点")]
+#[outer_print("函数要点")]
 pub fn function_gist() {
 
 }
 
 /// # 函数参数
 /// Rust 是强类型语言，因此需要你为每一个函数参数都标识出它的具体类型，例如：
-#[print_start_end("函数参数")]
+#[outer_print("函数参数")]
 pub fn function_param() {
 
     fn another_function(x: i32, y: f32) {
@@ -34,7 +34,7 @@ pub fn function_param() {
 /// # 函数返回
 /// + 在上一章节语句和表达式中，我们有提到，在 Rust 中函数就是表达式，因此我们可以把函数的返回值直接赋给调用者。
 /// + 函数 8的返回值就是函数体最后一条表达式的返回值，当然我们也可以使用 return 提前返回，下面的函数使用最后一条表达式来返回一个值：
-#[print_start_end("函数返回")]
+#[outer_print("函数返回")]
 pub fn function_return() {
     fn plus_five(x:i32) -> i32 {
         x + 5
@@ -49,7 +49,7 @@ pub fn function_return() {
 /// 例如单元类型 ()，是一个零长度的元组。它没啥作用，但是可以用来表达一个函数没有返回值：
 /// + 函数没有返回值，那么返回一个 ()
 /// + 通过 ; 结尾的表达式返回一个 ()
-#[print_start_end("无返回值()")]
+#[outer_print("无返回值()")]
 pub fn function_non_return() {
 
 
@@ -64,7 +64,7 @@ pub fn function_non_return() {
 /// # 永不返回的发散函数 !()
 /// 当用 ! 作函数返回类型的时候，表示该函数永不返回( diverge function )，特别的，这种语法往往用做会导致程序崩溃的函数：
 /// 表示该函数不能正常返回
-#[print_start_end("永不返回的发散函数")]
+#[outer_print("永不返回的发散函数")]
 pub fn function_diverge() {
     fn dead_end() -> ! {
         panic!("你已经到了穷途末路，崩溃吧！");

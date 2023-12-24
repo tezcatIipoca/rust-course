@@ -19,10 +19,10 @@
 //! ```
 //!
 
-use common::print_start_end;
+use common::outer_print;
 
 ///# 变量可变性
-#[print_start_end("变量可变性")]
+#[outer_print("变量可变性")]
 pub fn variable_variability() {
     /// + Rust 的变量在默认情况下是不可变的。前文提到，这是 Rust 团队为我们精心设计的语言特性之一，让我们编写的代码更安全，性能也更好。当然你可以通过 mut 关键字让变量变为可变的，让设计更灵活。
     /// + 如果变量 a 不可变，那么一旦为它绑定值，就不能再修改 a。举个例子，在我们的工程目录下使用 cargo new variables 新建一个项目，叫做 variables 。
@@ -56,7 +56,7 @@ pub fn variable_variability() {
 /// + 如果你创建了一个变量却不在任何地方使用它，Rust 通常会给你一个警告，因为这可能会是个 BUG。
 /// + 但是有时创建一个不会被使用的变量是有用的，比如你正在设计原型或刚刚开始一个项目。
 /// + 这时你希望告诉 Rust 不要警告未使用的变量，为此可以用下划线作为变量名的开头：
-#[print_start_end("忽略未使用的变量")]
+#[outer_print("忽略未使用的变量")]
 pub fn ignored_unused_variable() {
     /// + 可以看到，两个变量都是只有声明，没有使用，但是编译器却独独给出了 y 未被使用的警告，充分说明了 _ 变量名前缀在这里发挥的作用。
     /// + 值得注意的是，这里编译器还很善意的给出了提示( Rust 的编译器非常强大，这里的提示只是小意思 ): 将 y 修改 _y 即可。这里就不再给出代码，留给大家手动尝试并观察下运行结果。
@@ -68,7 +68,7 @@ pub fn ignored_unused_variable() {
 /// # 变量解构
 /// let 表达式不仅仅用于变量的绑定，还能进行复杂变量的解构：从一个相对复杂的变量中，匹配出该变量的一部分内容：
 ///
-#[print_start_end("变量解构")]
+#[outer_print("变量解构")]
 pub fn variable_deconstruction() {
     let (a, mut b): (bool, bool) = (true, true);
     /// a = true,不可变; b = false，可变
@@ -81,7 +81,7 @@ pub fn variable_deconstruction() {
 ///# 解构式赋值
 ///
 ///
-#[print_start_end("解构式赋值")]
+#[outer_print("解构式赋值")]
 pub fn destructuring_assignments() {
     struct Struct {
         e: i32,
@@ -103,7 +103,7 @@ pub fn destructuring_assignments() {
 /// ## 与不可变变量一样，常量也是绑定到一个常量名且不允许更改的值，但是常量和变量之间存在一些差异：
 /// + 常量不允许使用 mut。常量不仅仅默认不可变，而且自始至终不可变，因为常量在编译完成后，已经确定它的值。
 /// + 常量使用 const 关键字而不是 let 关键字来声明，并且值的类型必须标注。
-#[print_start_end("解构式赋值")]
+#[outer_print("解构式赋值")]
 pub fn diff_var_const() {
     ///下面是一个常量声明的例子，其常量名为 MAX_POINTS，值设置为 100,000。（Rust 常量的命名约定是全部字母都使用大写，并使用下划线分隔单词，另外对数字字面量可插入下划线以提高可读性）：
     const MAX_POINTS: u32 = 100_000;
@@ -114,7 +114,7 @@ pub fn diff_var_const() {
 
 /// # 变量遮蔽(shadowing)
 /// Rust 允许声明相同的变量名，在后面声明的变量会遮蔽掉前面声明的，如下所示：
-#[print_start_end("变量遮蔽")]
+#[outer_print("变量遮蔽")]
 pub fn variable_shadowing() {
     /// + 这和 mut 变量的使用是不同的，第二个 let 生成了完全不同的新变量，两个变量只是恰好拥有同样的名称，涉及一次内存对象的再分配 ，而 mut 声明的变量，可以修改同一个内存地址上的值，并不会发生内存对象的再分配，性能要更好。
     /// + 变量遮蔽的用处在于，如果你在某个作用域内无需再使用之前的变量（在被遮蔽后，无法再访问到之前的同名变量），就可以重复的使用变量名字，而不用绞尽脑汁去想更多的名字。
