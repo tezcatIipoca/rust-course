@@ -49,10 +49,12 @@ pub fn immut_ref(){
     let len=calculate_length(&s1);
     println!("The length of '{}' is {}.", s1, len);
 
+    fn calculate_length(s: &String) -> usize {
+        s.len()
+    }
+
 }
-fn calculate_length(s: &String) -> usize {
-    s.len()
-}
+
 //能注意到两点：
 //
 // 1.无需像上章一样：先通过函数参数传入所有权，然后再通过函数返回来传出所有权，代码更加简洁
@@ -103,6 +105,13 @@ error[E0596]: cannot borrow `*some_string` as mutable, as it is behind a `&` ref
 pub fn mut_ref(){
     let mut s = String::from("hello");
     change(&mut s);
+
+    fn change(some_string: &mut String) {
+        some_string.push_str(", world");
+    }
+    //声明 s 是可变类型，其次创建一个可变的引用 &mut s 和接受可变引用参数 some_string: &mut String 的函数。
+
+
 
     inner_print!("可变引用同时只能存在一个");
     /// 可变引用同时只能存在一个
@@ -224,10 +233,3 @@ pub fn mut_ref(){
     /// 2.引用必须总是有效的
     ();
 }
-
-fn change(some_string: &mut String) {
-    some_string.push_str(", world");
-}
-//声明 s 是可变类型，其次创建一个可变的引用 &mut s 和接受可变引用参数 some_string: &mut String 的函数。
-
-

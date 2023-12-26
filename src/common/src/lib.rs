@@ -45,6 +45,3 @@ pub fn inner_print(input: TokenStream) -> TokenStream {
 
     TokenStream::from(expanded)
 }
-
-#[test]
-pub fn test() {}
