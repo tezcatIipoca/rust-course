@@ -57,8 +57,8 @@ pub fn access_array(){
         index, element
     );
     inner_print!("数组元素为非基础类型");
-    let array = [String::from("rust is good!"); 8];
-    println!("{:#?}", array);
+    // let array = [String::from("rust is good!"); 8];
+    // println!("{:#?}", array);
     //然后你会惊喜的得到编译错误。
     /// 而基本类型在Rust中赋值是以Copy的形式，这时候你就懂了吧，let array=[3;5]底层就是不断的Copy出来的，但很可惜复杂类型都没有深拷贝，只能一个个创建。
     // 正确的写法，应该调用std::array::from_fn
@@ -79,4 +79,5 @@ pub fn array_slice(){
     /// 切片的长度可以与数组不同，并不是固定的，而是取决于你使用时指定的起始和结束位置
     /// 创建切片的代价非常小，因为切片只是针对底层数组的一个引用
     /// 切片类型[T]拥有不固定的大小，而切片引用类型&[T]则具有固定的大小，因为 Rust 很多时候都需要固定大小数据类型，因此&[T]更有用,&str字符串切片也同理
+    ();
 }
